@@ -1,0 +1,163 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    cursor: pointer;
+    margin:10px 0 0 20px;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+a:active{
+    opacity: 0.9;
+}
+
+
+a{
+    font-Size:19px;
+    Line-height:60px;
+    color: rgba(152, 157, 156, 1);   
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.button-header{
+    height:600;
+    font-size:18px;
+    Line-height:29.26px;
+    border: none;
+    color:rgba(255, 255, 255, 1);
+    background-color: rgba(102, 90, 225, 1);
+    Height:34px;
+    Width:104px;
+    border-radius:50px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.button-header:hover{
+    opacity: 0.5;
+}
+.button-header:active{
+    opacity: 0.9;
+}
+
+
+h1{
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 122px;
+    text-align: left;
+    color: rgba(81, 81, 81, 1);
+    margin-bottom:0px ;
+}
+
+h2{
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 6px;
+    text-align: left;
+    color: rgba(81, 81, 81, 1);
+    margin-bottom:55px ;
+}
+
+p{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: left;
+    color:rgba(132, 132, 132, 1);
+    margin-bottom:-33px;
+    width: 560px;
+}
+
+.button-main{
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 34px;
+    color:rgba(0, 0, 0, 1);
+    border: none;
+    width: 163px;
+    height: 49px;
+    border-radius: 50px;
+    background-color: rgba(173, 255, 0, 1);
+    margin-top:50px;
+    cursor: pointer;
+}
+
+.button-main:hover{
+    opacity: 0.5;
+}
+.button-main:active{
+    opacity: 0.9;
+}
+
+img{
+    width: 468px;
+    height: 400px;
+    position: relative;
+    top: 70px;
+    right:-165px;
+
+}
+
+main{
+    display: inline-block;
+    width: 50%;
+    position: relative;
+    top: 16px;
+    right: -233px;
+    height: 10px;
+}
+
+@media screen and (max-width:800px){
+
+    header{
+        display: none;
+    }
+
+    p{
+        display: none;
+    }
+
+    h1{
+        width: 610px;
+        position: relative;
+        top: -23px;
+        left: 105px;
+    }
+
+    h2{ 
+        width: 600px ;
+        position: relative;
+        top: -23px;
+        left: 140px;
+    }
+
+    .button-main{
+        position: relative;
+        top: -75px;
+        left: 147px;
+        font-size: 48px;
+        width: 425px;
+        height: 121px;
+    }
+
+    main{
+        position: relative;
+        top: 323px;
+        left: -45px;
+    }
+
+    img{
+        position: relative;
+        top: 237px;
+        left: 34px;
+    }
+    
+}
