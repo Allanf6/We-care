@@ -12,5 +12,5 @@
 
 - <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="logo css"/>
 <br>
- <img src="">
- <img src="">
+ <img src="https://github.com/Allanf6/WE-CARE/blob/Abacate/assets/pc.png?raw=true">
+ <img src="https://github.com/Allanf6/WE-CARE/blob/Abacate/assets/Mobile.png?raw=true">
